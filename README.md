@@ -1,7 +1,6 @@
 # Web Advanced: JavaScript (Section B) Fall 2016
 
-### [MFA Design and Technology](http://www.newschool.edu/parsons/mfa-design-technology/), [Parsons School of Design](http://www.newschool.edu/parsons/)
-
+[MFA Design and Technology](http://www.newschool.edu/parsons/mfa-design-technology/), [Parsons School of Design](http://www.newschool.edu/parsons/)
 [PGTE 5505, Section B, CRN 5264](https://courses.newschool.edu/courses/PGTE5505?sec=5264)
 
 
@@ -9,7 +8,7 @@
 * **Location:** 6 East 16th Street, Room 1208
 * **Faculty:** [Umi Syam](http://umisyam.com/)
 * **Faculty e-mail:** [umi@newschool.edu](mailto:umi@newschool.edu)
-* **Teaching Assistant:** [Soomi Lee](lees105@newschool.edu)
+* **Teaching Assistant:** [Soomi Lee](mailto:lees105@newschool.edu)
 
 ---
 
