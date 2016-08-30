@@ -1,8 +1,6 @@
 # Web Advanced: JavaScript (Section B) Fall 2016
 
-## [Parsons School of Design](http://www.newschool.edu/parsons/)
-
-### [MFA Design and Technology](http://www.newschool.edu/parsons/mfa-design-technology/)
+### [MFA Design and Technology](http://www.newschool.edu/parsons/mfa-design-technology/), [Parsons School of Design](http://www.newschool.edu/parsons/)
 
 [PGTE 5505, Section B, CRN 5264](https://courses.newschool.edu/courses/PGTE5505?sec=5264)
 
@@ -78,4 +76,6 @@ TBA
 * A [Github account](https://github.com/) and a way to access it. Feel free to either Terminal or a desktop app — [Github for Mac](https://desktop.github.com/), [Source Tree](https://www.sourcetreeapp.com/) or whatever you feel comfortable with.
 
 Other tools will be added along the course. Be sure to check each lesson plan before coming to class.
+
+
 
