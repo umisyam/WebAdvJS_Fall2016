@@ -52,7 +52,7 @@ By the successful completion of this course, students will be able to:
 
 ## Assessable Tasks
 
-All assignments must be submitted through Github to the [student's homework repository](https://github.com/umisyam).
+All assignments must be submitted through your personal Github repo. I will add each student as a submodule to our [student's homework repository](https://github.com/umisyam/WebAdvJS_Fall2016_StudentsHW) so that it's easier to check everyone's homework.
 
 ### Homework
 
