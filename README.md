@@ -55,18 +55,26 @@ By the successful completion of this course, students will be able to:
 
 All assignments must be submitted through your personal Github repo. I will add each student as a submodule to our [student's homework repository](https://github.com/umisyam/WebAdvJS_Fall2016_StudentsHW) so that it's easier to check everyone's homework.
 
-### Homework
+### Weekly Assignments
 
-Please refer to each week's readme file for the list of weekly homework.
+Please refer to each week's readme file for the list of weekly assignment.
 
 
 #### Midterm
 
-TBA
+Build a data-driven web application. Your project must:
+* At least read data from an external source — could be from a JSON file, from a database, or whatever you feel more comfortable with.
+* Have no less than 2 different "screens." If it's a dynamic html website, have at least 2 pages within the same url, but just different “#”/hash page. If you're building a canvas-based game, maybe you have 2 scenes? If it's a datavis, 2 charts or 2 ways of visualizing the same data and so on.
+* Respond to user interaction.
 
 #### Final Project
 
-TBA
+Team up with another student and build an interactive web app that meets these requirements:
+* Interacts with the server-side using NodeJS
+* Includes bi-directional communication using websockets, any of these are valid:  client <--> server, hardware <--> server communication. We're looking for true communication, sending and receiving data/messages/actions/inputs back and forth.
+* Outputs a visualization on the front-end side using either P5.js, D3.js, or Three.js.
+
+Using database is optional in this case.
 
 
 ## Required Tools
@@ -76,7 +84,4 @@ TBA
 * Terminal (Mac) / Command Prompt (PC)
 * A [Github account](https://github.com/) and a way to access it. Feel free to either Terminal or a desktop app — [Github for Mac](https://desktop.github.com/), [Source Tree](https://www.sourcetreeapp.com/) or whatever you feel comfortable with.
 
-Other tools will be added along the course. Be sure to check each lesson plan before coming to class.
-
-
-
+Read the complete syllabus here.
