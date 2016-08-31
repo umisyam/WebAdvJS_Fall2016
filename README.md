@@ -84,4 +84,4 @@ Using database is optional in this case.
 * Terminal (Mac) / Command Prompt (PC)
 * A [Github account](https://github.com/) and a way to access it. Feel free to either Terminal or a desktop app — [Github for Mac](https://desktop.github.com/), [Source Tree](https://www.sourcetreeapp.com/) or whatever you feel comfortable with.
 
-Read the complete syllabus here.
+Read the complete syllabus [here](/SYLLABUS_WebAdvJavaScript-SectionB-Fall2016.pdf).
