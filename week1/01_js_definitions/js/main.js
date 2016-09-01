@@ -47,14 +47,40 @@ var keyValue = {
 /*------------------------------------------------*/
 // 2. Object Oriented
 /*------------------------------------------------*/
-// A constructor (Think of it as the blueprint.)
-var Car = function() {
-  this.wheelCount = 4;
-  this.doorCount = 4;
+// JS is object-oriented, but is not a class-based language like Java, C, or C++.
+// Instead, it's prototype-based language.
+
+// A constructor in JavaScript can be any function. (Think of it as the blueprint.)
+var Bubble = function(posX, posY, size) {
+  this.posX = posX;
+  this.posY = posY;
+  this.size = size;
 };
 
-// An instance (Use the blueprint to make something.)
-var myCar = new Car();
+// Constructors are responsible for creating new instances like this:
+var myBubble = new Bubble(0,0,20);
+console.log(myBubble.size);
+
+// A prototype in JavaScript can be any object.
+// Prototypes are responsible for defining the behaviour of instances.
+Bubble.prototype.update = function(posX, posY, speed){
+  // update the position
+};
+
+Bubble.prototype.display = function(){
+  // display the bubble
+};
+
+//The above can also be written as one big object like this:
+Bubble.prototype {
+  update: function(posX, posY, speed){
+    // update the position
+  },
+  display: function(){
+    // display the bubble
+  }
+}
+
 
 
 /*------------------------------------------------*/
@@ -89,3 +115,4 @@ function brew() {
 /*------------------------------------------------*/
 // In C++ you would go through Pre-processing, Compiling and Linking to run the program,
 // in JavaScript you save the file and you're done.
+
