@@ -53,6 +53,7 @@ app.main = (function(){
 	var loadData = function(query){
 		console.log('Searching for ' + query + '...');
 		// This is an AJAX function that JQuery is helping us to access Spotify Web API
+		// More here: https://developer.spotify.com/web-api/search-item/
 	    $.ajax({
 	        url: 'https://api.spotify.com/v1/search',
 	        data: {
