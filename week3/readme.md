@@ -40,7 +40,7 @@ For now we'll use template engines. Not the same as MVC, but they'll help us get
 
 ### Homework Week 3
 
-* Make sure you understand the whole exercise by re-reading the commented JS file on **02c_SPA_handlebars_finished/assets/js/script.js**. 
+* Make sure you understand the whole exercise by re-reading the commented JS file on **04_SPA_filtered_finish/assets/js/script.js**. 
 
 * Then, try **adding a new filter based on the Thesis-Studio I Professors**. So other than Thesis-Category, user can now filter them based on the studio classes that they're in. For example, they should be able to view who else in John Sharp's class that's doing a thesis with 'Playful Experiences' category.
 
