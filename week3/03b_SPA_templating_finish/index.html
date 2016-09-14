@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+
+	<title>SPA Exercise - MFADT Thesis 2016</title>
+	<link href="assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="main-content">
+
+		<div class="all-students page">
+			<div class="filters">
+				<h1 class="ultra-big">D+T</h1>
+				<h5>Class of 2016</h5>
+				<button class="abt">About</button>
+				<button class="ctc">Contact</button>
+			</div>
+
+			<ul class="students-list">
+				<script id="students-template" type="x-handlebars-template">​
+					{{#each this}}
+						<li data-index="{{id}}">
+							<a href="#" class="student-photo"><img src="{{profile-pic}}" height="130" alt="{{name}}"/></a>
+							<h2><a href="#"> {{name}} </a><br/></h2>
+							<h3>{{project.title}}</h3>
+							<ul class="project-description">
+								<li><span>Category: </span>{{project.thesis-category}}</li>
+								<li>{{project.studio-professor}}</li>
+							</ul>
+
+
+						</li>
+					{{/each}}
+				</script> 
+			</ul>
+
+		</div>
+
+		<div class="about page">
+			<div class="overlay"></div>
+			<div class="container">
+				<h3>About This Experiment</h3>
+				<p>This is an alternative grid-style list for the <a href="http://mfadt.parsons.edu/2016/people/">People</a> page of <a href="http://mfadt.parsons.edu/2016/">MFADT Thesis 2016 website.</a></p>
+				<span class="close">×</span>
+			</div>
+		</div>
+
+		<div class="contact page">
+			<div class="overlay"></div>
+			<div class="container">
+				<h3>Hire us!</h3>
+				<p>blablabla</p>
+				<span class="close">×</span>
+			</div>
+		</div>
+
+		<div class="single-project page">
+			<div class="overlay"></div>
+			<div class="popup-detail">
+				<!--these dummy contents are dynamically changed from script.js-->
+				<h3>Single project view</h3>
+				<h4>Blurb placeholder</h4>
+				<img src=""/>
+				<p></p>
+				<span class="close">×</span>
+			</div>
+
+		</div>
+
+		<div class="error page">
+			<h3>Something went wrong and I'm not sure why.. :o</h3>
+		</div>
+
+	</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+	<script src="assets/js/script.js"></script>
+
+</body>
+</html>
