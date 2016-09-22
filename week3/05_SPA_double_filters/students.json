@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "name": "Umi Syam",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/syamu557-5.jpg",
+    "project": {
+      "title": "Collective Craving",
+      "thesis-category": "DataArt",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/cc1.png",
+      "blurb": "An interactive Twitter visualization of human cravings, captured during specific US public events and holidays from Fall 2015 to Spring 2016.",
+      "description": "Collective Craving has collected almost one million tweets containing the keyword ‘craving’, captured a day before, during, and a day after these major events: Thanksgiving, Christmas, New Year’s, the Super Bowl, the Lunar New Year, Mardi Gras, Valentine’s Day, the Oscars, Leap Year Day, St. Patrick’s Day, Easter, April Fool’s Day, and Mother’s Day. Using the Web as its main interface, it provides users with a macro-level comparison that shows the top 50 most craved foods during those events and how the popularity of a given food changes over time. It also lets users be immersed in a micro-level exploration of every event, within a specific time constraint.",
+      "studio-professor-1": "ScottPobiner",
+      "studio-professor-2": "DavidCarroll"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Wynn Mustin",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/mustw826-4.jpg",
+    "project": {
+      "title": "STONEDALONE",
+      "thesis-category": "PoeticObjects",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/webpic2.jpg",
+      "blurb": "STONEDALONE is a collection of future talismans that provide contemporary mystical properties suited to our internet-driven age.",
+      "description": "STONEDALONE is a collection of speculative future talismans that offer the wearer playful and contemporary mystical properties based on the principles of metaphysical crystal magic. By using derivative 3d printing techniques, this project explores the potential for both technology and myself, a self-proclaimed “cyber mystic”, in the fabrication of modern day talismans and spiritual lore. The colors in each piece are associated with a distinct mystical property suited to our internet-driven age. All together, the collection intends to use digital fabrication to approximate that which is hand made, naturally occurring, and spiritually charged.",
+      "studio-professor-1": "JohnSharp",
+      "studio-professor-2": "AnetaGenova"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Christina Lafontaine",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/lafoc311-4.jpg",
+    "project": {
+      "title": "Ethereal Ecologies",
+      "thesis-category": "PoeticObjects",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/NightInstallMedium1_1.jpg",
+      "blurb": "a series of otherworldly installations embedded within the urban landscape that encourages discovery of the unseen all around us.",
+      "description": "Ethereal Ecologies is an ongoing series of multimedia installations situated within our everyday environment that explores the concept of parallel worlds and the illusory liminal spaces that bridge the boundary between our accepted reality and the unknown. Through my own interpretive imaginings of the unseen and by representing a symbiosis between the urban landscape and these other worlds, my goal is to inspire curiosity and discovery about what exists beyond our human range of senses.",
+      "studio-professor-1": "MelanieCrean",
+      "studio-professor-2": "KateSicchio"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Kai Cheng",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/chenk461-3.jpg",
+    "project": {
+      "title": "Download Your Emotions",
+      "thesis-category": "PlayfulExperiences",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/IMG_9753.jpg",
+      "blurb": "a critical design project depicting a girl who has become emotionally numb retrieving her saved emotions for from a special cloud service through a mixed media installation.",
+      "description": "Download Your Emotions is a critical design project depicting a girl who has become emotionally numb retrieving her saved emotions for  complementing her lack of humanity from a special cloud service, where they have been backupped and stored. The project is demonstrated through a mixed media installation, with its audience experiencing it through video projection and sound mapped onto a physical face mask and its background wall within the installation space. The piece is an ironic play on a serious problem, aiming to provoke a smile, a nod, a conversation, a thought on the need to stay in touch with our emotions.",
+      "studio-professor-1": "KateSicchio",
+      "studio-professor-2": "MarkoTandefelt"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Nitcha (Fame) Tothong",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/tothn598-6.jpg",
+    "project": {
+      "title": "Atta-matic: mind the body",
+      "thesis-category": "HumanMediation",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/betweenSpaces_attamatic-5_sm.jpg",
+      "blurb": "อัตตาเมติก is a series of speculative and whimsical wearable devices that highlight the disconnect between our mind and body in sedentary lifestyle.",
+      "description": "This project aims to enhance our perception of how contemporary human-machine interfaces encourage and produce very particular body postures and gestures, which in turn shape behavior that becomes an automatic response or habit. Keybod is a computer keyboard worn on the upper body that forces the wearer to be mindful of the practice of typing as well as their posture. Click-kick are shoe covers that work as a computer’s mouse with existing energetic movements controlling its cursor. Text-neck is a collar piece that disrupts its wearer, helping them to avoid staying in a bad posture longer than desired when interacting with a smartphone.",
+      "studio-professor-1": "MelanieCrean",
+      "studio-professor-2": "MarkoTandefelt"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Grace Jun",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/jung235-3.jpg",
+    "project": {
+      "title": "Access & Closure",
+      "thesis-category": "ProblemSolving",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/thesisGJ.gif",
+      "blurb": "Access and Closure is a functional jacket design for women who have undergone post-surgery breast cancer.",
+      "description": "Access & Closure is a series of seven jackets created for women who have undergone post-surgery breast cancer. By rethinking traditional pattern making techniques, clothing closures were used as functional elements. The jacket designs were inspired by conversations and in-person interactions with women who have experienced breast cancer. Each jacket in the collection solves issues specific to different phases of the recovery process. The final jacket includes interactive technology, allowing the jacket to become a communication tool: spreading awareness of the changes and difficulties breast cancer survivors live through.",
+      "studio-professor-1": "ScottPobiner",
+      "studio-professor-2": "AnetaGenova"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Cihang Yang",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/yangc901-0.jpg",
+    "project": {
+      "title": "Autoerotic City",
+      "thesis-category": "PlayfulExperiences",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/Screen-Shot-2016-03-21-at-10.59.37-AM-1.png",
+      "blurb": "Autoerotic City, an interactive VR experience. The city rises up in Oculus Rift as participants stroke digital buildings using their hands.",
+      "description": "Autoerotic City, my art installation, is a digital fantasy city.  The city rises up in Oculus Rift as participants stroke physical models of Manhattan buildings. My purpose is to criticize the phallic look of New York, which entraps and dominates us. In Autoerotic City, gallery goers create our city through masturbating it. The piece is meant to give users a humorous, immersive and playful experience.  The city will literally be in the palm of their hands;  unlike in real life, gallery goers will control our oppressive urban-scape.",
+      "studio-professor-1": "SvenTravis",
+      "studio-professor-2": "JesseHarding"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Ava Burke",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/burka186-3.jpg",
+    "project": {
+      "title": "One Part Per Million",
+      "thesis-category": "DataArt",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/Screen-Shot-2016-03-21-at-10.59.37-AM-1.png",
+      "blurb": "One Part Per Million is a collaborative 1,000,000-stitch needlepointed data sculpture that seeks to raise awareness about toxic chemical exposure at imperceptibly low doses.",
+      "description": "One Part Per Million is a collaboratively-produced needlepointed data sculpture that seeks to raise public awareness about the consequences of our reliance on petrochemicals by exploring the impact of one of the most ubiquitous and toxic of these chemicals: vinyl chloride. Vinyl chloride is used to make PVC plastic, an attractive material to designers and consumers because of its durability, versatility, and low cost. Vinyl chloride is a proven human carcinogen and endocrine disrupter that is 1,000 times more toxic than Lead. Because of this toxicity, prolonged exposure to vinyl chloride for industrial workers must not exceed 1 part per million—meaning vinyl chloride must account for less than one one-millionth of any measured volume of air, water, or soil. However, studies show that vinyl chloride persists in causing genetic mutations and cancer even at this low level.",
+      "studio-professor-1": "JohnSharp",
+      "studio-professor-2": "AnezkaSebek"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Stephanie McNiel",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/mcnes430-3.jpg",
+    "project": {
+      "title": "Savage Diction",
+      "thesis-category": "MediaArchaeology",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/nineEleven_1.jpg",
+      "blurb": "Savage Diction is a short film narrated by artificial intelligence.",
+      "description": "Savage Diction is a short film narrated by artificial intelligence. It is a curated collection of media artifacts, narrated by an intelligent computational system. This narration is generated by machine learning, a subdomain of artificial intelligence, through the process of object recognition and natural language processing. Different interpretations are algorithmically generated by training the machine learning models on separate databases of textual artifacts that range from released Hilary Clinton emails to a corpus of romance novels. By interjecting these narratives into the film, a visual investigation is created. One that embodies the significance of data used to train intelligent systems, the contextual associations that emerge from the process of intelligent algorithms, and the shifting definition of culture that results when artificial intelligence becomes a key producer of cultural artifacts.",
+      "studio-professor-1": "JohnSharp",
+      "studio-professor-2": "DavidCarroll"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Miri Park",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/parkm223-5.jpg",
+    "project": {
+      "title": "Diametric",
+      "thesis-category": "PlayfulExperiences",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/Screen-Shot-2016-04-05-at-3.51.47-PM.png",
+      "blurb": "Diametric is an art game that reimagines the language of comics, offering a pensive and exploratory experience of space, time, and identity.",
+      "description": "Diametric is an art game that experiments with creative structures in non-linear comics, offering an exploration of identity through oscillating perspectives and progressions. The experience centers on physical shifts in perspective, allegorical shifts in character, and spatial representations of temporal relationships. Diametric takes the player through a pensive exploration of identity in personal and interpersonal facets, as experienced through nonlinear temporal and spatial progressions.",
+      "studio-professor-1": "JohnSharp",
+      "studio-professor-2": "JesseHarding"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Hang Do Thi Duc",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/dothh489-4.jpg",
+    "project": {
+      "title": "Data Selfie",
+      "thesis-category": "Surveillance",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/teaser_dataselfie.gif",
+      "blurb": "An analyzed log of personal, self-tracked, Facebook data highlighting how algorithms make us transparent – as consumers and as people.",
+      "description": "I have created a Chrome browser extension that tracks myself while I interact – click, type, scroll, dwell – with content on Facebook and that predicts various personality traits based on that data. I have used it for 2 weeks (April 18 – May 1, 2016) and visualized this as a time-based data visualization that is presented as a projection on translucent material to represent on the one hand the ‘glassy’ consumer and citizen, and on the other the lack of information transparency. Internet users purposefully create different identities on different platforms they use. They control how they want to be seen. Data Selfie addresses the curiosity of: What about the data profile that is made of us by machines at Facebook, Google and co., the one profile we never get to see, but unconsciously create?! This project aims to provide a personal and differentiated perspective on data mining, predictive analytics and your online data identity. So many details can be inferred from our online consumption and depending on the subjective rules the algorithm architect designs, there will be different outcomes.",
+      "studio-professor-1": "MelanieCrean",
+      "studio-professor-2": "AnezkaSebek"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Regina Flores Mir",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/florr422-5.jpg",
+    "project": {
+      "title": "Holobiont Urbanism",
+      "thesis-category": "DataArt",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/BlackScreen-Shot-2016-04-20-at-3.25.30-PM.png",
+      "blurb": "Holobiont Urbanism invites participants to reimagine New York City as a complex, adaptive, biological superstructure.",
+      "description": "Holobiont Urbanism is an art installation that invites participants to reimagine the city they live in as more than a vast metropolis but as a complex, adaptive, biological superstructure. Using a design aesthetic crafted from a scientific framework, the project seeks to distort the participant’s perception of the known reality to see the city through the lens of the microbial world. Once aware of the companion species that live among us, on us, and in us, participants in this project may begin to review what it means to be human and their relationship with their bodies and with their urban environments.",
+      "studio-professor-1": "MelanieCrean",
+      "studio-professor-2": "KateSicchio"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Aaron Trueblood Lehr",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/lehra714-0.jpg",
+    "project": {
+      "title": "Align: A Chair designed for the individual, not the masses",
+      "thesis-category": "ProblemSolving",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/05/Gif-Files3.gif",
+      "blurb": "Align is a chair designed for the human body by utilizing digital scanning and fabrication to create a chair designed for an individual.",
+      "description": "I am creating a system to improve the design of furniture and its relationship to the human body. By investigating additive manufacturing, 3d scanning and generative modeling as production methods.  This process will customize the manufacturing of chairs to individual sitters. The first part of my research includes the history of chair design and manufacturing in order to understand why chairs are designed for an “ideal” person. Because the majority of our time is sitting due to a shift away from manufacturing job the we are noticing the effects on our bodies.  Trends like standing desk, ball chairs and stools have been solutions till now but I am working to create a system to produce a custom form fitting 3d printed foam mesh structure. This mesh structure can then be applied to a mass produce framework chair in forms such as a desk, lounge, dining chair or even a car seat. Finally I plan to apply studies of medical ergonomics, orthopedics and pain mediation to improve one’s posture or comfort with external medical collaborations.",
+      "studio-professor-1": "ScottPobiner",
+      "studio-professor-2": "KateSicchio"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Tyler Henry",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/henrt555-5.jpg",
+    "project": {
+      "title": "Eyeline Match",
+      "thesis-category": "MediaArchaeology",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/SIFT_lg.jpg",
+      "blurb": "Combining human and computer vision, Eyeline Match is a film that edits itself as you watch.",
+      "description": "As embedded video cameras saturate our daily lives, the established language of cinema is yielding to a new network of encoded image-streams. The gaze, mechanized in the 20th century, has become digitized in the 21st. It is becoming a type of sensory technology that empowers algorithms to scrape the physical world for quantitative input. Each of us, as we pass under surveillance satellites or simply take a selfie, is reflected as an actor in this new global database narrative. Our images become identities that circulate from camera, to algorithm, to eye, and back again. Eyeline Match traces this evolution of the gaze from cinema to the emerging era of intelligent sensing machines. The project is a personalized “smart film” that edits itself based on how it is watched. Using gaze-tracking hardware, the viewer’s eye-movements are monitored and analyzed by machine learning algorithms that detect patterns of visual interest, and search a database of iconic cinematic imagery to generate subsequent frames of the film. The viewer gradually becomes aware of how the algorithms’ decisions correspond to his or her own activity of seeing. In the end, the viewer must learn to navigate the gaze in order to become a user.",
+      "studio-professor-1": "MelanieCrean",
+      "studio-professor-2": "MarkoTandefelt"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Zachary Collopy",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/collz893-4.jpg",
+    "project": {
+      "title": "☐☐☐☐☐☐☐☐☐☐, (Nearñosis)",
+      "thesis-category": "MediaArchaeology",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/UploadWeb.jpg",
+      "blurb": "As we shed our first world bodies, ☐☐☐☐☐☐☐☐☐ explores the human’s primal desire to be eternalized, in the fear that they will be forgotten.",
+      "description": "As we move into an unknown digital horizon, fundamentally dependent on technology, how do we perceive our work to be accessed by future generations? Who will continue to pay and maintain our domains? Will it disappear or fade into the oblivion that is the cloud? Can we depend on this cloud? These are all questions that have evolved with the rise of the digital age – and in just a short period we have transitioned away from a very physical existence; 40,000+ years of tangible artifacts and temporal human experiences, to a paperless future of projected identities and virtual realities.  ‘Near Nosis’, an experimental video installation; building on 1000’s of years of human tradition, exploring our primal desire to be eternalized in the belief that we won’t be forgotten when we’re gone.",
+      "studio-professor-1": "BradMacDonald",
+      "studio-professor-2": "KateSicchio"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Jingying (Eric) Jiang",
+    "profile-pic": "http://mfadt.parsons.edu/2016/wp-content/themes/btwnspcs/img/portraits/jianj890-3.jpg",
+    "project": {
+      "title": "Path",
+      "thesis-category": "SonicLandscapes",
+      "image": "http://mfadt.parsons.edu/2016/wp-content/uploads/2016/04/Screen-Shot-2016-06-10-at-11.52.26-PM.png",
+      "blurb": "An interactive zen garden responds to the simple repetitive raking task from its participants through an 'auralized landscape'.",
+      "description": "Path is a Zen garden generative sound installation, using enabling technologies that respond to the raking motions of its participant. As sand is raked leaving traces, sounds emerge in relationship to patterns, stone locations, and raking motions. Participants can become sensitive to the types of sounds that co-produce direction and path. By focusing on a simple repetitive raking task in an ‘auralized landscape’ , this installation helps its participant let go of everyday matters, distraction, overload, and stress",
+      "studio-professor-1": "BradMacDonald",
+      "studio-professor-2": "MarkoTandefelt"
+    }
+  }
+]

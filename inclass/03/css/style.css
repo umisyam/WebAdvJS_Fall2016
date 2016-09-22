@@ -1,0 +1,27 @@
+/* your style begins here */
+body {
+	background-color: salmon;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+	body {
+		background-color: orange;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	body {
+		background-color: limegreen;
+	}
+}
+
+/* for mobile */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+	body { background-color: yellow; }
+	h1 { font-size: 120px }
+}
+
+@media screen and (max-device-width: 480px) and (orientation: landscape) {
+	body { background-color: teal; }
+	h1 { font-size: 120px }
+}

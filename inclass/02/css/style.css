@@ -1,0 +1,25 @@
+/* your style begins here */
+body {
+	margin: 0;
+}
+
+section {
+	background-image: url(../images/pizza.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 90vh;
+}
+div {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+}
+iframe {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0
+}

@@ -1,0 +1,143 @@
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:300,400,700';
+
+body {
+	background-color: indigo;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+}
+
+body, a{
+	margin: 0;
+	color: white;
+}
+.clear {
+	clear: both;
+}
+
+/* FIXED HEADER */
+header {
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	right: 0;
+	background-color: black;
+	width: 100%;
+	height: 10vh;
+	text-align: center;
+}
+header #desktop {
+	display: none;
+}
+header nav a {
+	padding: 0 2vh;
+	text-decoration: none;
+	line-height: 10vh;
+}
+
+/* CONTAINER */
+section {
+	position: relative;
+	top: 15vh;
+}
+
+/* COLUMNS */
+section p {
+	width: 80vw;
+	float: left;
+	padding: 2%;
+	box-sizing: border-box;
+}
+
+/* GRID */
+section #work {
+	position: absolute;
+	width: 80vw;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+
+section .items {
+	width: 80vw;
+	height: 80vw;
+	float: left;
+	text-align: center;
+}
+
+#item1 {background: #37BC9B;}
+#item2 {background: #DA4453;}
+#item3 {background: #F6BB42;}
+#item4 {background: #3BAFDA;}
+#item5 {background: #4A89DC;}
+#item6 {background: #E9573F;}
+#item7 {background: #434A54;}
+#item8 {background: #D770AD;}
+#item9 {background: #8CC152;}
+#item10 {background: #967ADC;}
+#item11 {background: #E6E9ED; color: #333;}
+#item12 {background: #AAB2BD; color: #333;}
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 500px) and (min-device-width: 500px) {
+	body{
+		background-color: blue;
+	}
+	section .items {
+		width: calc(80vw / 2);
+		height: calc(80vw / 2);
+	}
+}
+
+/* tablet */
+@media screen and (min-width: 780px) and (min-device-width: 500px){
+	body{
+		background-color: orange;
+	}
+	section .items {
+		width: calc(80vw / 3);
+		height: calc(80vw / 3);
+	}
+	section p {
+		width: calc(80vw / 3);
+	}
+	header #desktop {
+		display:block;
+	}
+	header #mobile {
+		display: none;
+	}
+}
+
+/* desktop */
+@media screen and (min-width: 1050px) {
+	body{
+		background-color: crimson;
+	}
+	section .items {
+		width: calc(80vw / 4);
+		height: calc(80vw / 4);
+	}
+}
+
+/* FOR MOBILE DEVICES*/
+/* Source for different devices http://cssmediaqueries.com/target/ */
+@media screen and (max-device-width: 500px) and (orientation: portrait){
+	body{
+		background-color: yellow;
+		color: black;
+		font-size: 2.5em;
+	}
+}
+
+/* seems to be a difference between Android and iOS, device-width and device-height changes with orientation*/
+@media screen and (max-device-width: 500px) and (orientation: landscape), screen and (max-device-height: 500px) and (orientation: landscape){
+	body{
+		background-color: limegreen;
+	}
+	section .items {
+		width: calc(80vw / 2);
+		height: calc(80vw / 2);
+	}
+}

@@ -1,0 +1,343 @@
+* {
+	margin:0;
+	padding:0;
+
+}
+html {
+	zoom: 0.9;
+}
+body{
+	font: normal 16px Helvetica, sans-serif;
+}
+h1, h3{
+	font: normal 24px Helvetica, sans-serif;
+}
+a:link, a:visited {
+	color: rgba(231, 11, 128, 0.9);
+	text-decoration: none;
+}
+/*-----------------
+	Main Content
+------------------*/
+.main-content{
+	box-sizing: border-box;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.main-content h1.ultra-big {
+	font-size: 8.25em;
+	font-weight: bold;
+	letter-spacing: -15px;
+	margin: -25px 0 -35px -8px;
+}
+.main-content h3{
+	font-size: 4.5em;
+    line-height: 1em;
+    margin: 20px 0;
+    letter-spacing: -2px;
+    font-weight: bold
+
+}
+.main-content h4 {
+	font-size: 1.3em;
+	line-height: 1.4em;
+	color: #999;
+	margin-bottom: 30px;
+	color: rgba(231, 11, 128, 0.9);
+	font-weight: normal;
+	width: 70%;
+}
+.main-content h5 {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 100;
+	margin: 20px 0;
+	font-size: 0.7em;
+}
+@media (max-width: 600px){
+	.main-content{
+		margin: 45px auto;
+		padding: 0 25px;
+	}
+}
+
+
+/*-------------------
+	All Students Page
+--------------------*/
+
+/*	Filter Form	*/
+form {
+	bottom: 30px;
+	position: absolute;
+}
+.filters{
+	box-sizing: border-box;
+	padding: 25px 30px 30px;
+	width: 240px;
+	background-color: #221D68;
+	position: fixed;
+	text-align: left;
+	color: #fff;
+	opacity: 0;
+	pointer-events: none;
+	height: 111.1vh;
+}
+
+.filters .filter-criteria{
+	display: block;
+	margin: 10px 0 10px;
+}
+
+.filters span{
+	font-size: 0.7em;
+	display: block;
+	margin-bottom: 12px;
+	font-weight: 100;
+	margin-top: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.filters label{
+	display: block;
+	line-height: 1.4;
+	font-size: 0.9em;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+.filters label input{
+	margin-right: 10px;
+}
+
+.filters button{
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #ffffff;
+	font-size: 13px;
+	cursor: pointer;
+	width: 95px;
+	height: 32px;
+	margin-top: 10px;
+}
+
+
+/*	Students List	*/
+.all-students h3{
+	opacity: 0;
+}
+.students-list{
+	list-style:none;
+	margin-left: 255px;
+	padding: 20px 0;
+	opacity: 0;
+	font-size: 0;
+}
+.all-students.visible .students-list,
+.all-students.visible .filters,
+.all-students.visible h3{
+	opacity: 1;
+	transition: 1s;
+	pointer-events: auto;
+}
+.students-list > li{
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	transition: 0.2s;
+	text-align:left;
+	font:normal 12px sans-serif;
+	background-color:#ffffff;
+	margin: 0 12px 12px 0;
+	padding: 15px 10px;
+}
+
+.students-list > li.hidden{
+	opacity: 0.2;
+	pointer-events: none;
+}
+
+/* The Project image */
+.students-list .student-photo{
+	display: block;
+	width: 275px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+/* The Project name */
+.students-list h2{
+	display: block;
+	font-size: 18px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	max-width: 200px;
+	margin:0;
+}
+
+.students-list h2 a{
+	text-decoration: none;
+	color: #2B2E31;
+}
+.students-list h3{
+	font-size: 18px;
+	font-weight: normal;
+	color:#000;
+	letter-spacing: normal;
+	margin: 7px 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 225px;
+}
+
+/* Project description */
+.students-list .project-description{
+	color: #5d5d5d;
+	font-size: 14px;
+	line-height: 1.45;
+	white-space: normal;
+	max-width: 260px;
+	margin-bottom: 20px;
+	list-style: none;
+}
+.students-list .project-description li{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.students-list .project-description li:first-child{
+	display: block;
+}
+
+.students-list .project-description li span{
+	font-weight: bold;
+}
+
+.students-list button{
+	border-radius: 2px;
+	background-color:  #87bae1;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+	border: 0;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	cursor: pointer;
+
+	width: 95px;
+	height: 32px;
+}
+
+/* Making the list responsive */
+@media (max-width: 800px){
+	.students-list .student-photo{
+		width: 200px;
+	}
+
+	.students-list .project-description{
+		max-width: 200px;
+	}
+}
+
+/*---------------------------
+	Single Project Page
+----------------------------*/
+.single-project{
+	z-index: 100;
+}
+
+.overlay{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 0.6s;
+}
+
+.single-project.visible .overlay{
+	height: 100%;
+}
+
+.popup-detail{
+	box-sizing: border-box;
+	height: 100vh;
+	position: fixed;
+	left: 40.2%;
+	margin-left: -375px;
+	top: 0px;
+	pointer-events: none;
+	background-color:  #ffffff;
+	opacity: 0;
+	transition: 0.4s;
+	text-align: left;
+}
+
+.single-project.visible .popup-detail{
+	opacity: 1;
+	transition: 1.4s;
+	pointer-events: auto;
+}
+
+.popup-detail h3{
+	margin-top: 45px;
+}
+
+.popup-detail img{
+	height: 50%;
+}
+
+.popup-detail p{
+	padding: 30px 0;
+	line-height: 1.4em;
+	width: 70%;
+}
+
+.close{
+	position: absolute;
+	right: 75px;
+	top: 25px;
+	font-size: 80px;
+	color: #000;
+	cursor: pointer;
+	font-weight: 100;
+}
+
+/*---------------------------
+	Error & About Page
+----------------------------*/
+.error, .about, .contact{
+	opacity: 0;
+	transition: 0.6s;
+	pointer-events: none;
+	position: absolute;
+	left: 0;
+	top: 40px;
+	width: 100%;
+	z-index: 999;
+}
+
+.error.visible, .about.visible, .contact.visible{
+	opacity: 1;
+	transition: 1.4s;
+	display: block;
+	width: 100%;
+	height: 100vh;
+	pointer-events: auto;
+}
+
+.error h3{
+	font-size: 40px;
+}
+
+.container {
+	text-align: left;
+	width: 70vw;
+	line-height: 1.6em;
+	margin: 0 auto;
+	font-weight: 100;
+	font-size: 1.2em;
+	letter-spacing: 1px;
+}

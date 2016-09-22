@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Demo 1 - Device Detection</title>
+	<meta charset="utf-8" />
+
+</head>
+<body>
+	<h1 id="device"></h1>
+
+	<script>
+		var ua = window.navigator.userAgent;
+		document.getElementById("device").innerHTML = ua;
+
+		if (ua.indexOf("Mobile") > -1) {
+			window.location.replace("mobile.html");
+		}
+		if (ua.indexOf("Macintosh") > -1) {
+			window.location.replace("desktop.html");
+		}
+
+	</script>
+</body>
+</html>

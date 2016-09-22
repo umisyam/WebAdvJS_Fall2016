@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Web Design - 2 redirect</title>
+</head>
+<body>
+	<h1 id="device"></h1>
+
+	<script>
+		var ua = window.navigator.userAgent;
+		document.getElementById("device").innerHTML = ua;
+
+		// http://stackoverflow.com/questions/1789945/how-can-i-check-if-one-string-contains-another-substring
+		// http://stackoverflow.com/questions/503093/how-can-i-make-a-redirect-page-using-jquery
+		// indexOf function is used for finding the occurance of a string within a string and returning the index of that string.
+
+		if (ua.indexOf("Mobile") !== -1) {
+		// Alternatively,
+		// if (ua.indexOf("Mobile") > -1) {
+			window.location.replace("mobile.html");
+		};
+
+		if (ua.indexOf("Macintosh") !== -1) {
+		// Alternatively,
+		// if (ua.indexOf("Macintosh") > -1) {
+			window.location.replace("desktop.html");
+		};
+	</script>
+</body>
+</html>

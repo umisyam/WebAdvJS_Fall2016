@@ -1,0 +1,40 @@
+/* FOR LAPTOPS, DESKTOPS */
+
+body{
+	background-color: cyan;
+}
+
+@media all and (min-width: 800px) and (max-width: 1200px) {
+	body{
+		background-color: orange;
+	}
+}
+
+@media all and (min-width: 1200px) {
+	body{
+		background-color: crimson;
+	}
+}
+
+/* FOR MOBILE */
+
+/*Source for different devices http://cssmediaqueries.com/target/*/
+@media all and (max-device-width: 480px) and (orientation: portrait){
+	body{
+		background-color: yellow;
+	}
+	h1 {
+		font-size: 112px;
+	}
+}
+
+/* seems to be a difference between Android and iOS, device-width and device-height changes with orientation*/
+@media all and (max-device-width: 480px) and (orientation: landscape),
+all and (max-device-height: 480px) and (orientation: landscape){
+	body{
+		background-color: limegreen;
+	}
+	h1 {
+		font-size: 112px;
+	}
+}

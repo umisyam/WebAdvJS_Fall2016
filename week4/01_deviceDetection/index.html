@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Web Design - 1 device detection</title>
+</head>
+<body>
+	<h1 id="device"></h1>
+	
+	<!-- test this on your phone -->
+	<!-- local server (terminal): python -m SimpleHTTPServer -->
+	<script>
+		document.getElementById("device").innerHTML = window.navigator.userAgent;
+	</script>
+</body>
+</html>
