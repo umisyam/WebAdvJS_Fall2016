@@ -1,4 +1,4 @@
-## Lesson 5: Server-Side 1
+## Lesson 5: Server-Side
 
 This week we will start developing JavaScript for the server-side. We will set up a simple server using NodeJS, create an API, and make it interact with the client requests. We will also see some other useful features in NodeJS, like scraping websites and saving files. See class slide for more.
 
@@ -41,4 +41,4 @@ This week we will start developing JavaScript for the server-side. We will set u
 You have 2 options:
 
 * Make a web app that demonstrate client-server request using Express GET/POST that serves static public HTML interface. **Bonus**: instead of taking the data from an Object var, read an external file using Node File System module  --- require('fs').
-* Scrape something on the web, output should be in .json file format.
+* Scrape something on the web, output should be in .json file format. **Bonus**: combine it with Express to serve a public HTML interface (has a index.html in it)
