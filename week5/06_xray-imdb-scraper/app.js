@@ -20,6 +20,6 @@ x('http://www.imdb.com/search/title?groups=top_1000&sort=boxoffice_gross_us', '.
 		// poster: x('.lister-item-header a@href', 'head meta[property="og:image"]@content')
 	}])
 }])
-	// .paginate('a.lister-page-next.next-page@href')
-	// .limit(20)
+	.paginate('a.lister-page-next.next-page@href')
+	.limit(20)
     .write('results.json');

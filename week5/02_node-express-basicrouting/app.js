@@ -8,6 +8,11 @@ var app = express();
 // app.delete(..)
 
 // Responding with String
+app.get('/', function (req, res) {
+   console.log("Got a GET request for /string");
+   res.send('This is default');
+})
+
 app.get('/string', function (req, res) {
    console.log("Got a GET request for /string");
    res.send('Hi my name is Umi');

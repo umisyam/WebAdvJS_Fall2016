@@ -20,16 +20,21 @@ app.main = (function() {
 		});
 	};
 
-	var loadWeather = function(city){
+	var loadWeather = function(user_input){
 		$.post('/weather', {
-			city: city
+			city: user_input
 		}, function(response) {
         	console.log(response);
         	$('#data').empty();
-        	$('#data').append('<p>The weather in ' + response['city'] + ' is:</p>');
-        	for(var prop in response['weather']){
-				$('#data').append('<p>' + prop + ': ' + response['weather'][prop] + '</p>');
-        	}
+        	$('#data').append('<p>The weather in ' + response.city + ' is:</p>');
+        	$('#data').append('<p>' + response.weather.temp_f + '</p>');
+        	$('#data').append('<p>' + response.weather.temp_c + '</p>');
+        	$('#data').append('<p>' + response.weather.wind_dir + '</p>');
+        	$('#data').append('<p>' + response.weather.wind + '</p>');
+        	$('#data').append('<p>' + response.weather.humidity + '</p>');
+    //     	for(var prop in response['weather']){
+				// $('#data').append('<p>' + prop + ': ' + response['weather'][prop] + '</p>');
+    //     	}
 	    });
 	};
 
