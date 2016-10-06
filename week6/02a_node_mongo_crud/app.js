@@ -80,13 +80,13 @@ mongodb.MongoClient.connect(uri, function(err, db){
   // });
 
   // ------ 4. DELETE
-  // songs.remove(
-  //   { decade: '1970s' },
-  //   function(err, result) {
-  //     if(err) throw err;
-  //     console.log("Delete 1970s!");
-  //     db.close();
-  //   });
+  songs.remove(
+    { decade: '1970s' },
+    function(err, result) {
+      if(err) throw err;
+      console.log("Delete 1970s!");
+      db.close();
+    });
 
   // Since this is an example, we'll clean up after ourselves and drop the entire collection
   // songs.drop(function (err) {
