@@ -1,0 +1,23 @@
+/* your style begins here */
+body {
+	/*background-color: yellow;*/
+}
+.words {
+	margin: 0;
+	list-style: none;
+}
+
+.words li {
+	display: inline-block;
+	width: 25vw;
+	/*min-height: 200px;*/
+	margin:0 5px 5px 0;
+	padding: 20px;
+	border: 1px solid #333;
+}
+.words li h2 {
+	margin-bottom: 0;
+}
+.sample-sentence {
+	font-style: italic;
+}

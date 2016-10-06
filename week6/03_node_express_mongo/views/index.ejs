@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY APP</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Hipster Dictionary</h1>
+
+  <ul class="words">
+  <% for(var i=0; i<words.length; i++) {%>
+    <li class="word">
+      <h2><%= words[i].word %></h2>
+      <p class="definition"><%= words[i].definition %></p>
+      <p class="sample-sentence"><%= words[i]['sample-sentence'] %></p>
+    </li>
+  <% } %>
+  </ul>
+
+  <h2>Add a new hipster word!</h2>
+  <form action="/words" method="POST">
+    <input type="text" placeholder="word" name="word">
+    <input type="text" placeholder="definition" name="definition">
+    <textarea placeholder="Sample Sentence" name="sample-sentence"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>

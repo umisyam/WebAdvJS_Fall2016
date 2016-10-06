@@ -1,0 +1,51 @@
+ <h4>Example: Loop</h4>
+
+ <p>
+ To display items in a loop, use handlebars's <code>&#123&#123;#each&#125;&#125;</code> helper.
+ This template is rendered with two arrays, one called <em>basketballPlayers</em> and one called <em>days</em>.
+ </p>
+
+ <p>
+ The <em>days</em> array is just a list of strings, the day names. When you use <code>&#123&#123;#each&#125;&#125;</code>, you
+ can access the value of the current item in the array using <code>&#123&#123;this&#125;&#125;</code>.
+ </p>
+
+ <p>
+ To print each day of the week, then do this:
+ <code><pre>
+ &#123&#123;#each days&#125;&#125;
+
+ Day: &#123&#123;this&#125;&#125; &lt;br&gt;
+
+ &#123&#123;/each&#125;&#125;
+ </pre></code>
+ </p>
+
+ <p>
+ The result is this:<br>
+ {{#each days}}
+ Day: {{this}}<br>
+ {{/each}}
+ </p>
+
+  <p>
+ The <em>basketballPlayers</em> array is a list of <em>objects</em>, each of which has a <em>name</em> and <em>team</em> property.
+
+ Inside of your <code>&#123&#123;#each&#125;&#125;</code> block, you can access the properties using <code>&#123&#123;this&#125;&#125;</code> with a dot ('.')
+ and the property name. So to display all the players and their teams, do this:
+
+<code><pre>
+ &#123&#123;#each basketballPlayers&#125;&#125;
+
+ &#123&#123;this.name&#125;&#125; plays for &#123&#123;this.team&#125;&#125; &lt;br&gt;
+
+ &#123&#123;/each&#125;&#125;
+ </pre></code>
+ </p>
+
+ <p>
+ The result is this:<br>
+ {{#each basketballPlayers}}
+    <b>{{this.name}}</b> plays for <b>{{this.team}}</b><br>
+ {{/each}}
+ </p>
