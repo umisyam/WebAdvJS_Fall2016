@@ -27,5 +27,4 @@ In the working session we will build a simple chat using the Socket.io library.
 
 ### Homework Week 8
 
-Let me talk about it.
-
+READ ALL THE SOURCE CODE OF THE CLASS EXERCISE AND MAKE SURE YOU GRASP THE BASIC CONCEPT FIRST.
