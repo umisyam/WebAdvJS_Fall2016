@@ -63,18 +63,20 @@ Please refer to each week's readme file for the list of weekly assignment.
 #### Midterm
 
 Build a data-driven web application. Your project must:
+
 * At least read data from an external source — could be from a JSON file, from a database, or whatever you feel more comfortable with.
 * Have no less than 2 different "screens." If it's a dynamic html website, have at least 2 pages within the same url, but just different “#”/hash page. If you're building a canvas-based game, maybe you have 2 scenes? If it's a datavis, 2 charts or 2 ways of visualizing the same data and so on.
 * Respond to user interaction.
 
 #### Final Project
 
-Team up with another student and build an interactive web app that meets these requirements:
+Build an interactive web app that meets these requirements:
+
 * Interacts with the server-side using NodeJS
 * Includes bi-directional communication using websockets, any of these are valid:  client <--> server, hardware <--> server communication. We're looking for true communication, sending and receiving data/messages/actions/inputs back and forth.
 * Outputs a visualization on the front-end side using either P5.js, D3.js, or Three.js.
 
-Using database is optional in this case.
+Using database is optional in this case. If you want to make it more interesting, feel free to explore the possibility of connecting microcontrollers hardware as input/output. Send me a proposal of your final project first.
 
 
 ## Required Tools

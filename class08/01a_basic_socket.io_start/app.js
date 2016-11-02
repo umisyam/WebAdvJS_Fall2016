@@ -21,6 +21,24 @@ io.on('connection', function(socket) {
     // .on(identifier, callback(data))      listens to
     // .emit(identifier, data)              sends data to every user
     // .broadcast.emit(identifier, data)    sends data to every user, except the newly created
+    console.log('A new user has connected: ' + socket.id);
+    socket.emit('welcome', 'welcome! your ID is ' + socket.id);
 
+    io.sockets.emit('hey everyone', 'hey everyone! Please welcome ' + socket.id);
 
+    socket.on('message to server', function(data){
+    	io.sockets.emit('message to clients', {
+    		id: socket.id,
+    		msg: data
+    	})
+    })
+
+    socket.on('disconnect', function(){
+    	io.sockets.emit('bye', 'See you, ' + socket.id + '!!!!!');
+    })
 });
+
+
+
+
+
