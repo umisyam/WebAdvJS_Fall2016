@@ -29,12 +29,12 @@ For a full description of each class, see each week's folder.
 | 2 | 9/7/2016 | JavaScript Basics Pt.2 + Web App | A simple API-driven web app |
 | 3 | 9/14/2016 | Single-Page Application | Add more filters to our exercise |
 | 4 | 9/21/2016 | Responsive Web | Turn any of the 1-3 homework, responsive |
-| 5 | 9/28/2016 | Node.js | TBA |
+| 5 | 9/28/2016 | Node.js | GET/POST exercise or scrape with xray |
 | 6 | 10/5/2016 | Database | Midterm Proposal Due |
 |  | 10/12/2016 | ***No class - Yom Kippur*** |  |
 | 7 | 10/19/2016 | Midterm Presentations | - |
-| 8 | 10/26/2016 | Websockets | TBA |
-| 9 | 11/2/2016 | JS Lib: P5.js | TBA |
+| 8 | 10/26/2016 | Websockets | Read socket chat ex |
+| 9 | 11/2/2016 | JS Lib: P5.js | Turn any existing Processing sketch into P5 |
 | 10 | 11/9/2016 | Guest Lecture: Three.js | TBA |
 | 11 | 11/16/2016 | JS Lib: D3.js | TBA |
 | 12 | 11/22/2016 (Tuesday) | JS Lib: D3.js | Final Project Proposal Due |
