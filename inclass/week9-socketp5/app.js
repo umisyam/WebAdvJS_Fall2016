@@ -14,3 +14,11 @@ server.listen(PORT, function(){
 });
 
 /*-------------- SOCKET.IO --------------*/
+io.on('connection', function(socket){
+    console.log('A new user has connected: ' + socket.id);
+    socket.on('mouse', function(data) {
+        console.log("Received" + data.x + ', ' + data.y);
+
+        socket.broadcast.emit('mouse', data);
+    })
+});
