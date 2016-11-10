@@ -2,17 +2,16 @@ var app = app || {};
 
 app.main = (function() {
     var socket;
-    var mobile, container, camera, scene, renderer, controls, group,
-        texture, dome, domeGeom, domeMaterial,
+    var animate,
+        mobile, container, camera, scene, renderer,
+        controls, group, texture, dome, domeGeom, domeMaterial,
         index = 0,
         frameDelta = 0,
         clock = new THREE.Clock(),
         loadedtex = [],
         // users = [],
-        imglength = 94;
-        // yourId;
-
-    //Everything that happens in 3js needs to be contained inside a "scene".
+        imglength = 94,
+        yourId;
 
 
     var socketSetup = function() {
@@ -29,7 +28,31 @@ app.main = (function() {
         return check;
     };
 
-    var animate = function() {
+    var addLights = function() {
+        var ambientLight = new THREE.AmbientLight(0xdddddd);
+        group.add(ambientLight);
+
+        var lights = [];
+        lights[0] = new THREE.PointLight(0xcccccc, 1, 100);
+        lights[1] = new THREE.PointLight(0xcccccc, 1, 300);
+        lights[2] = new THREE.PointLight(0xcccccc, 1, 300);
+        lights[3] = new THREE.PointLight(0xcccccc, 1, 300);
+        lights[4] = new THREE.PointLight(0xcccccc, 1, 300);
+
+        lights[0].position.set(0, 70, 0);
+        lights[1].position.set(80, 0, 80);
+        lights[2].position.set(-80, 0, -80);
+        lights[3].position.set(80, 0, -80);
+        lights[4].position.set(-80, 0, 80);
+
+        group.add(lights[0]);
+        group.add(lights[1]);
+        group.add(lights[2]);
+        group.add(lights[3]);
+        group.add(lights[4]);
+    }
+
+    animate = function() {
         requestAnimationFrame(animate);
         controls.update();
         renderer.render(scene, camera);
@@ -37,34 +60,35 @@ app.main = (function() {
 
     var threeJSSetup = function() {
         mobile = mobilecheck();
-        container = $('#container');
-        camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 1000);
-        camera.position.set(400,400,400);
-
+        container = $("#container");
+        camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 100000);
         controls = new THREE.OrbitControls(camera);
-        controls.target = new THREE.Vector3(0,1,0);
+        camera.position.set(400, 400, 400);
 
         scene = new THREE.Scene();
         renderer = new THREE.WebGLRenderer();
         renderer.setPixelRatio(window.devicePixelRatio);
         renderer.setSize(window.innerWidth, window.innerHeight);
-
         container.append(renderer.domElement);
 
-        domeGeom = new THREE.SphereGeometry(100,100,100);
+        var texture_loader = new THREE.TextureLoader();
+        var tex = texture_loader.load("texture/sky0.jpg");
+        domeGeom = new THREE.SphereGeometry(30, 200, 200);
         domeMaterial = new THREE.MeshPhongMaterial({
             color: 0xffffff,
+            specular: 0x000000,
             shininess: 50,
-            specular: 0x000000
+            map: tex,
+            side: THREE.BackSide
         });
+
         dome = new THREE.Mesh(domeGeom, domeMaterial);
         scene.add(dome);
 
-        var light = new THREE.AmbientLight( 0xffffff ); // soft white light
-        scene.add( light );
-        // var light = new THREE.PointLight( 0xff0000, 1, 100 );
-        // light.position.set( 50, 50, 50 );
-        // scene.add(light);
+        group = new THREE.Object3D();
+        addLights();
+        scene.add(group);
+
 
         var axishelper = new THREE.AxisHelper(1000);
         scene.add(axishelper);
@@ -74,9 +98,11 @@ app.main = (function() {
         // if (mobile) {
         //     alert("Hello mobile.");
         // } else {
-        //     // alert("Hello desktop.");
-        //     // Everything else goes here:
+        //     // HERE
         // }
+
+
+
         // socketSetup(attachEvents);
     }
 

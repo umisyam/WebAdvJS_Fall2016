@@ -21,7 +21,7 @@
 
             socket.on('add-sb', function(data) {
                 if (data[1] != yourId) {
-                    addUser(data.geom, data.pos, data.id, false);
+                    addUser(data.geom, data.pos, data.color, data.id, false);
                 }
             });
 
