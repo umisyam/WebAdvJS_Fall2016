@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Socket 360</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1">
+    <style>
+    body {
+        margin: 0px;
+        font-family: sans-serif;
+        color: #FFFFFF;
+        background-color: #000000;
+        overflow: hidden;
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    #container {
+        display: none;
+        position: absolute;
+        top: 0;
+    }
+
+    #options {
+        display: none;
+        z-index: 100;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+
+    #loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 5px solid rgba(255, 255, 255, 0.2);
+        border-top-color: rgba(255, 255, 255, 1.0);
+        animation: spin 1s infinite linear;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+    <div id="loading"></div>
+    <div id="options">
+        <p>Choose your shape.</p>
+        <button id="sphere">Sphere</button>
+        <button id="box">Box</button>
+        <button id="cylinder">Cylinder</button>
+        <button id="torus">Torus</button>
+    </div>
+    <script src="libs/socket.io-1.4.5.js"></script>
+    <script src="libs/three.min.js"></script>
+    <script src="libs/jquery-1.9.0.js"></script>
+    <script src="libs/AxisHelper.js"></script>
+    <script src="libs/DeviceOrientationControls.js"></script>
+    <script src="libs/OrbitControls.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
