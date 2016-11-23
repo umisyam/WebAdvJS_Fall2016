@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>D3 Super Simple Bar Chart</title>
+  <style id="jsbin-css">
+  .bar {
+    fill: salmon;
+  }
+
+  .bar:hover {
+    fill: brown;
+  }
+
+  </style>
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
+<!-- <svg width="960" height="500"></svg> -->
+<script id="jsbin-javascript">
+// set the dimensions and margins of the graph
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+// set the ranges
+// https://github.com/d3/d3-scale
+var x = d3.scaleBand()  // for categorical dimension we use band scale/ordinal
+          .range([0, width])
+          .padding(0.2);
+var y = d3.scaleLinear()
+          .range([height, 0]);
+          
+// append the svg object to the body of the page
+// append a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+// get the data
+d3.csv("data.csv", function(error, data) {
+  if (error) throw error;
+
+  // format the data
+  // coerce the type to number
+  data.forEach(function(d) {
+    d.number = +d.number;
+  });
+
+  // Scale the range of the data in the domains
+  x.domain(data.map(function(d) { return d.student; }));
+  y.domain([0, d3.max(data, function(d) { return d.number; })]);
+
+  // append the rectangles for the bar chart
+  svg.selectAll(".bar")
+      .data(data)
+    .enter().append("rect")
+      .attr("class", "bar")
+      .attr("x", function(d) { return x(d.student); })
+      .attr("width", x.bandwidth())
+      .attr("y", function(d) { return y(d.number); })
+      .attr("height", function(d) { return height - y(d.number); });
+
+  // add the x Axis
+  svg.append("g")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+
+  // add the y Axis
+  svg.append("g")
+      .call(d3.axisLeft(y));
+
+});
+</script>
+</body>
+</html>
